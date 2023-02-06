@@ -83,3 +83,4 @@ C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Api\bin\Debug
 C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Api\bin\Debug\net7.0\POS.Infrastructure.pdb
 C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Api\bin\Debug\net7.0\POS.Domain.pdb
 C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Api\bin\Debug\net7.0\POS.Utilities.pdb
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kMsRiskLl/duoAJArmDOHmPa60gEah4dJH7e9+Rz5DxdV5rK5cDW/idu1BHq3aO9UyAHB2zF1nj72MuYE8CI5w==",
+  "dgSpecHash": "WfaseqKLLZUpPqqnWb4Q6TETKwtkIOYY/O1ROGlL0yRteR+NCMhlaxiuaXcZUn89YR8boeMVZ9Pqb6Zx3EFymg==",
   "success": true,
   "projectFilePath": "C:\\Users\\chism\\OneDrive\\Desktop\\Dotnet\\Sesion\\Lunes-05\\POS\\src\\POS.Api\\POS.Api.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\chism\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\chism\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
     "C:\\Users\\chism\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\chism\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.2\\microsoft.aspnetcore.authentication.jwtbearer.7.0.2.nupkg.sha512",
     "C:\\Users\\chism\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.1\\microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",
     "C:\\Users\\chism\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\chism\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
