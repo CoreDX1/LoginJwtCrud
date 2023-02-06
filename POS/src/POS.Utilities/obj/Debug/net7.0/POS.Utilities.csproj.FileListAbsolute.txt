@@ -1,0 +1,12 @@
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Utilities\bin\Debug\net7.0\POS.Utilities.deps.json
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Utilities\bin\Debug\net7.0\POS.Utilities.dll
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Utilities\bin\Debug\net7.0\POS.Utilities.pdb
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Utilities\obj\Debug\net7.0\POS.Utilities.csproj.AssemblyReference.cache
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Utilities\obj\Debug\net7.0\POS.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Utilities\obj\Debug\net7.0\POS.Utilities.AssemblyInfoInputs.cache
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Utilities\obj\Debug\net7.0\POS.Utilities.AssemblyInfo.cs
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Utilities\obj\Debug\net7.0\POS.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Utilities\obj\Debug\net7.0\POS.Utilities.dll
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Utilities\obj\Debug\net7.0\refint\POS.Utilities.dll
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Utilities\obj\Debug\net7.0\POS.Utilities.pdb
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Utilities\obj\Debug\net7.0\ref\POS.Utilities.dll

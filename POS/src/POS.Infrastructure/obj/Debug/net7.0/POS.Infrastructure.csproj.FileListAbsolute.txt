@@ -1,0 +1,17 @@
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\obj\Debug\net7.0\POS.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\obj\Debug\net7.0\POS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\obj\Debug\net7.0\POS.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\obj\Debug\net7.0\POS.Infrastructure.AssemblyInfo.cs
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\obj\Debug\net7.0\POS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\bin\Debug\net7.0\POS.Infrastructure.deps.json
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\bin\Debug\net7.0\POS.Infrastructure.dll
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\bin\Debug\net7.0\POS.Infrastructure.pdb
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\bin\Debug\net7.0\POS.Domain.dll
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\bin\Debug\net7.0\POS.Utilities.dll
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\bin\Debug\net7.0\POS.Domain.pdb
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\bin\Debug\net7.0\POS.Utilities.pdb
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\obj\Debug\net7.0\POS.Infrastructure.csproj.CopyComplete
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\obj\Debug\net7.0\POS.Infrastructure.dll
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\obj\Debug\net7.0\refint\POS.Infrastructure.dll
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\obj\Debug\net7.0\POS.Infrastructure.pdb
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Infrastructure\obj\Debug\net7.0\ref\POS.Infrastructure.dll

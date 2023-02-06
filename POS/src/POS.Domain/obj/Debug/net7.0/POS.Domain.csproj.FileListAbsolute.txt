@@ -1,0 +1,14 @@
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Domain\bin\Debug\net7.0\POS.Domain.deps.json
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Domain\bin\Debug\net7.0\POS.Domain.dll
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Domain\bin\Debug\net7.0\POS.Domain.pdb
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Domain\obj\Debug\net7.0\POS.Domain.csproj.AssemblyReference.cache
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Domain\obj\Debug\net7.0\POS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Domain\obj\Debug\net7.0\POS.Domain.AssemblyInfoInputs.cache
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Domain\obj\Debug\net7.0\POS.Domain.AssemblyInfo.cs
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Domain\obj\Debug\net7.0\POS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Domain\obj\Debug\net7.0\POS.Domain.dll
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Domain\obj\Debug\net7.0\refint\POS.Domain.dll
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Domain\obj\Debug\net7.0\POS.Domain.pdb
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Domain\obj\Debug\net7.0\ref\POS.Domain.dll
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Domain\bin\Debug\net7.0\POS.Domain.runtimeconfig.json
+C:\Users\chism\OneDrive\Desktop\Dotnet\Sesion\Lunes-05\POS\src\POS.Domain\obj\Debug\net7.0\POS.Domain.genruntimeconfig.cache
