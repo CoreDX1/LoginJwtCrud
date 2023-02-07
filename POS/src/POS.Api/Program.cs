@@ -1,13 +1,17 @@
 using POS.Application.Extensions;
 using POS.Infrastructure.Persistences.Extensions;
 using POS.Api.Extensions;
+using POS.Application.Token;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var Configuration = builder.Configuration;
 
+builder.Services.ConfigureOptions<JwtOptionsSetup>();
+
 builder.Services.AddControllers();
+
 builder.Services.addInjectionInfrastructure(Configuration);
 builder.Services.AddInjectionApplication(Configuration);
 builder.Services.AddAuthentication(Configuration);

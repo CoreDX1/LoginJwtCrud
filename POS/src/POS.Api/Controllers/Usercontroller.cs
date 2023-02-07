@@ -5,7 +5,6 @@ using POS.Application.Interface;
 
 namespace POS.src.POS.Api.Controllers
 {
-    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class Usercontroller : ControllerBase
@@ -17,6 +16,7 @@ namespace POS.src.POS.Api.Controllers
             _userApplication = userApplication;
         }
 
+        // GET: api/User/Select
         [HttpGet]
         [Route("Select")]
         public async Task<IActionResult> ListSelectUser()
@@ -25,22 +25,26 @@ namespace POS.src.POS.Api.Controllers
             return Ok(response);
         }
 
+        // GET: api/User/UserById/4
+        [Authorize]
         [HttpGet]
-        [Route("SelectUserById")]
+        [Route("UserById")]
         public async Task<IActionResult> UserById(int userId)
         {
             var response = await _userApplication.UserById(userId);
             return Ok(response);
         }
 
+        // POST: api/User/Register
         [HttpPost]
         [Route("Register")]
-        public async Task<IActionResult> RegisterUser(UserRequestDto requestDto)
+        public async Task<IActionResult> RegisterUser([FromBody] UserRequestDto requestDto)
         {
             var response = await _userApplication.RegisterUser(requestDto);
             return Ok(response);
         }
 
+        // POST: api/User/GenerateToken
         [HttpPost]
         [Route("GenerateToken")]
         public async Task<IActionResult> GenerateToke([FromBody] TokenRequestDto requestDto)
@@ -49,6 +53,7 @@ namespace POS.src.POS.Api.Controllers
             return Ok(response);
         }
 
+        // PUT: api/User/EditUser/2
         [HttpPut]
         [Route("EditUser/{userId:int}")]
         public async Task<IActionResult> EditUser(int userId, UserRequestDto requestDto)
@@ -57,6 +62,7 @@ namespace POS.src.POS.Api.Controllers
             return Ok(response);
         }
 
+        // DELETE: api/User/DeleteUser/2
         [HttpDelete]
         [Route("DeleteUser/{userId:int}")]
         public async Task<IActionResult> RemoveUser(int userId)

@@ -13,6 +13,8 @@ using POS.Infrastructure.Persistences.Interface;
 using POS.Utilities.Static;
 using System.Security.Claims;
 using BC = BCrypt.Net.BCrypt;
+using POS.Application.Token;
+using Microsoft.Extensions.Options;
 
 namespace POS.Application.Services;
 
@@ -21,19 +23,19 @@ public class UserApplication : IUserApplication
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
     private readonly UserValidator _validator;
-    private readonly IConfiguration _configuration;
+    private readonly JwtSettings _options;
 
     public UserApplication(
         IMapper mapper,
         UserValidator validator,
-        IConfiguration configuration,
-        IUnitOfWork unitOfWork
+        IUnitOfWork unitOfWork,
+        IOptions<JwtSettings> options
     )
     {
         _mapper = mapper;
         _validator = validator;
-        _configuration = configuration;
         _unitOfWork = unitOfWork;
+        _options = options.Value;
     }
 
     public async Task<BaseResponse<IEnumerable<UserSelectResponseDto>>> ListSelectUser()
@@ -123,9 +125,7 @@ public class UserApplication : IUserApplication
 
     private string GenerateToken(User user)
     {
-        var security = new SymmetricSecurityKey(
-            Encoding.UTF8.GetBytes(_configuration["Jwt:Secret"]!)
-        );
+        var security = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_options.Secret!));
         var creadentials = new SigningCredentials(security, SecurityAlgorithms.HmacSha256);
         var claims = new List<Claim>
         {
@@ -141,10 +141,10 @@ public class UserApplication : IUserApplication
             ),
         };
         var token = new JwtSecurityToken(
-            issuer: _configuration["Jwt:Issuer"],
-            audience: _configuration["Jwt:Issuer"],
+            issuer: _options.Issuer,
+            audience: _options.Issuer,
             claims: claims,
-            expires: DateTime.Now.AddHours(int.Parse(_configuration["Jwt:Expires"]!)),
+            expires: DateTime.Now.AddHours(int.Parse(_options.Expires!)),
             notBefore: DateTime.UtcNow,
             signingCredentials: creadentials
         );
