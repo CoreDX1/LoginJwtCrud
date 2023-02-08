@@ -1,7 +1,6 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using AutoMapper;
-using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using POS.Application.Commons.Base;
 using POS.Application.Dto.Request;
@@ -123,14 +122,19 @@ public class UserApplication : IUserApplication
         return response;
     }
 
+    // * GENERAMOS EL TOKEN CON LA INFOMACIÓN DEL USUARIO //
     private string GenerateToken(User user)
     {
+        // * CREAMOS EL HEADER //
         var security = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_options.Secret!));
         var creadentials = new SigningCredentials(security, SecurityAlgorithms.HmacSha256);
+        var header = new JwtHeader(creadentials);
+
+        // * CREAMOS EL CLAIMS //
         var claims = new List<Claim>
         {
             new Claim(JwtRegisteredClaimNames.NameId, user.Name),
-            new Claim(JwtRegisteredClaimNames.FamilyName, user.Name),
+            new Claim(JwtRegisteredClaimNames.FamilyName, user.LastName),
             new Claim(JwtRegisteredClaimNames.GivenName, user.Email),
             new Claim(JwtRegisteredClaimNames.UniqueName, user.UserId.ToString()),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
@@ -140,14 +144,20 @@ public class UserApplication : IUserApplication
                 ClaimValueTypes.Integer64
             ),
         };
-        var token = new JwtSecurityToken(
+
+        // * CREAMOS EL PAYLOAD //
+        var payload = new JwtPayload(
             issuer: _options.Issuer,
             audience: _options.Issuer,
             claims: claims,
-            expires: DateTime.Now.AddHours(int.Parse(_options.Expires!)),
             notBefore: DateTime.UtcNow,
-            signingCredentials: creadentials
+            // * Exipa a las 8 horas //
+            expires: DateTime.Now.AddHours(int.Parse(_options.Expires!))
         );
+
+        // * GENERAMOS EL TOKEN //
+        var token = new JwtSecurityToken(header, payload);
+
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
 
